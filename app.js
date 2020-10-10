@@ -17,7 +17,7 @@ const twitter = new Twitter({
 
 const mainHashtag = "#EndSARS"
 
-const hastags = ["#EndSarsNow", "#EndSARSBrutality", "#EndPoliceBrutality"]
+const hastags = ["#EndSarsNow", "#EndSARSBrutality", "#EndPoliceBrutality", "#ShutItAllDown"]
 
 // schedule tweet to been sent from the server every minute
 cron.schedule("* * * * *", async function() {
