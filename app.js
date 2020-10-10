@@ -14,20 +14,34 @@ const twitter = new Twitter({
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
-// schedule tasks to be run on the server at 08:30 am"
-cron.schedule("30 7 * * *", async function() {
+const tweets = [
+    "I'm not a criminal if I use an Iphone",
+    "I hate police brutality",
+    "This is long overdue",
+    "Enough is enough",
+    "Bitcoin is not a crime",
+    "Being a web developer is not a crime",
+    "Being a graphics designer is not a crime",
+    "Being young and successful is not a crime",
+    "Being a forex trader is not a crime",
+    "Ifeoma Abugu was raped and murdered while in detention #RIP",
+    "Chibuike Anams was killed while sitting with his friends in a guest house #RIP",
+    "Aneka Okorie was killed because he refused to pay bribe ‪🤦🏽‍ #RIP",
+    "Christian Ugwuoke was killed while attending a wake keep for his aunt #RIP",
+    "It could be you",
+    "No reforming!!! Just end it!!!"
+]
 
+const hastags = "#EndSARS #EndSarsNow #EndPoliceBrutality #EndSARSBrutality"
+
+// schedule tweet to been sent from the server every minute
+cron.schedule("* * * * *", async function() {
+    const tweet = tweets[Math.floor(Math.random() * tweets.length)] + " "+hastags
+    console.log(tweet);
+    /*twitter.post('statuses/update', {status: tweet}, (error, tweet, response) => {
+
+    });*/
 
 });
 
 app.listen(3128);
-
-var stream = twitter.stream('statuses/filter', {track: '#ENDSARS'});
-
-stream.on('data', function(event) {
-    console.log(event && event.text);
-});
-
-stream.on('error', function(error) {
-    throw error;
-});

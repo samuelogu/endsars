@@ -20,8 +20,8 @@
   "homepage": "https://github.com/samuelogu/endsars#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "twitter": "^1.7.1",
     "express": "^4.17.1",
-    "node-cron": "^2.0.3"
+    "node-cron": "^2.0.3",
+    "twitter": "^1.7.1"
   }
 }
