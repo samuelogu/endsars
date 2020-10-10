@@ -13,5 +13,6 @@ module.exports = [
     "Aneka Okorie was killed because he refused to pay bribe ‪🤦🏽‍ #RIP",
     "Christian Ugwuoke was killed while attending a wake keep for his aunt #RIP",
     "It could be you",
-    "No reforming!!! Just end it!!!"
+    "No reforming!!! Just end it!!!",
+    "Having a Macbook doesn't make me a criminal"
 ]
