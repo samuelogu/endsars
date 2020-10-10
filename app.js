@@ -15,15 +15,13 @@ const twitter = new Twitter({
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
-const hastags = "#EndSARS #EndSarsNow #EndPoliceBrutality #EndSARSBrutality"
+const mainHashtag = "#EndSARS"
 
-/*const tweet = tweets[Math.floor(Math.random() * tweets.length)] + " "+hastags
-console.log(tweets);
-return false;*/
+const hastags = ["#EndSarsNow", "#EndSARSBrutality", "#EndPoliceBrutality"]
 
 // schedule tweet to been sent from the server every minute
-cron.schedule("*/5 * * * *", async function() {
-    const tweet = tweets[Math.floor(Math.random() * tweets.length)] + " "+hastags
+cron.schedule("* * * * *", async function() {
+    const tweet = tweets[Math.floor(Math.random() * tweets.length)] + " "+mainHashtag+hastags[Math.floor(Math.random() * hastags.length)]
     twitter.post('statuses/update', {status: tweet}, (error, tweet, response) => {
 
     });
