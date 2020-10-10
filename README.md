@@ -1,2 +1,2 @@
 # endsars
-Twitter #ENDSARS cron bot
+Twitter #ENDSARS bot

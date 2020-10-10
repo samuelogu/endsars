@@ -1,0 +1,27 @@
+{
+  "name": "endsars",
+  "version": "1.0.0",
+  "description": "Twitter #ENDSARS cron bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelogu/endsars.git"
+  },
+  "keywords": [],
+  "author": "Samuel Ogu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelogu/endsars/issues"
+  },
+  "homepage": "https://github.com/samuelogu/endsars#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twitter": "^1.7.1",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3"
+  }
+}
