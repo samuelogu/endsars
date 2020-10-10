@@ -14,5 +14,6 @@ module.exports = [
     "Christian Ugwuoke was killed while attending a wake keep for his aunt #RIP",
     "It could be you",
     "No reforming!!! Just end it!!!",
-    "Having a Macbook doesn't make me a criminal"
+    "Having a Macbook doesn't make me a criminal",
+    "Stop harassing people in a peaceful protest"
 ]
