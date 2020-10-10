@@ -21,7 +21,7 @@ const hastags = ["#EndSarsNow", "#EndSARSBrutality", "#EndPoliceBrutality"]
 
 // schedule tweet to been sent from the server every minute
 cron.schedule("* * * * *", async function() {
-    const tweet = tweets[Math.floor(Math.random() * tweets.length)] + " "+mainHashtag+hastags[Math.floor(Math.random() * hastags.length)]
+    const tweet = tweets[Math.floor(Math.random() * tweets.length)] + " "+mainHashtag+" "+hastags[Math.floor(Math.random() * hastags.length)]
     twitter.post('statuses/update', {status: tweet}, (error, tweet, response) => {
 
     });
