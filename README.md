@@ -36,7 +36,7 @@ const hastags = "#EndSARS #EndSarsNow #EndPoliceBrutality #EndSARSBrutality"
 
 `npm install forever -g`
 
-`forever start app`
+`forever start app.js`
 
 This will start a cron job on your server and send a tweet every minute. Use based on your discretion.
 
