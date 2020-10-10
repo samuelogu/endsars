@@ -2,6 +2,9 @@
 This is a simple twitter cron bot to send a tweet every minute from your twitter account. Feel free to send a pull request 😁
 
 ## Installation & Setup ##
+
+If you dont't have an existing server; You could get $100 in credit over 60 days from Digitalocean to deploy this bot till our voices have been heard. Signup [here](https://m.do.co/c/5caff7bbbeaa).
+
 `git clone https://github.com/samuelogu/endsars.git`
 
 `cd endsars`
