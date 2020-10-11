@@ -5,5 +5,6 @@ module.exports = [
     "#ShutItAllDown",
     "#justiceforjimohisiaq",
     "#EndPoliceBrutalityinNigeria",
-    "#UnitedNationsHelp"
+    "#UnitedNationsHelp",
+    "#EndSarsToday"
 ]
