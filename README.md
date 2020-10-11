@@ -22,19 +22,22 @@ TWITTER_ACCESS_TOKEN_KEY=*****************************************
 TWITTER_ACCESS_TOKEN_SECRET=*****************************************
 ```
 
-Available tweets can be found in the `app.js` file as an array. Add as much as you need.
+Available tweets can be found in the `tweets.js` file as an array. Add as much as you need.
 
 ```
-const tweets = [
+module.exports = [
     "I'm not a criminal if I use an Iphone",
     "I hate police brutality"
 ]
 ```
 
-Add hashtags of your choice 
+Add hashtags of your choice in the `hashtags.js` file
 
 ```
-const hastags = "#EndSARS #EndSarsNow #EndPoliceBrutality #EndSARSBrutality"
+module.exports = [
+    "#EndSarsNow",
+    "#EndSARSBrutality"
+]
 ```
 
 `npm install forever -g`
