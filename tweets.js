@@ -15,5 +15,13 @@ module.exports = [
     "It could be you",
     "No reforming!!! Just end it!!!",
     "Having a Macbook doesn't make me a criminal",
-    "Stop harassing people in a peaceful protest"
+    "Stop harassing people in a peaceful protest",
+    "Rest in peace Jimoh Isiaq. Your death will not be in vain",
+    "Protesters are not criminals",
+    "I want to be safe in my country",
+    "Police are meant to protect lives and not destroy them",
+    "Do I have a president in this country?",
+    "What is so difficult in ending SARS?",
+    "Stop killing innocent Nigerians",
+    "Focus on your people Mr. President"
 ]
